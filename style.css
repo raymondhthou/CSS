@@ -1,0 +1,68 @@
+/* Task 1 CSS Methods */
+
+div.ext {
+    background-color: red; 
+    color: white; 
+    font-size: 32px; 
+    text-align: center; 
+    font-weight: bold;
+}
+
+/* Task 2 Class Id Selectors */
+
+.odd {
+    background-color: #ffcad4;
+    font: Verdana, "DejuVu Sans", sans-serif;
+}
+
+#even {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+.odd.cool {
+    font-size: 24px;
+}
+
+#bold {
+    background-color: rgb(167, 211, 151);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Task 3 Grouping Selectors */
+
+.one {
+    font-size: 28px;
+    font: Helvetica, "Times New Roman", sans-serif;
+}
+
+#purple {
+    background-color: #8338ec;
+    color: white;;
+}
+
+#red {
+    background-color: red;
+}
+
+/* Task 4 Chaining Selectors */
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+
+/* Task 5 Descendant Combinator */
+
+div > p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
